@@ -5,6 +5,8 @@ import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useLiveTranslation } from '@/hooks/useLiveTranslation';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -18,16 +20,22 @@ export default function TabLayout() {
       }}>
       <Tabs.Screen
         name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+        options={() => {
+          const { text, translating } = useLiveTranslation('Home');
+          return {
+            title: translating ? '...' : text,
+            tabBarIcon: ({ color }) => <IconSymbol name="house.fill" size={28} color={color} />,
+          }
         }}
       />
       <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        name="languages"
+        options={() => {
+          const { text, translating } = useLiveTranslation('Languages');
+          return {
+            title: translating ? '...' : text,
+            tabBarIcon: ({ color }) => <Ionicons name="language" size={28} color={color} />,
+          }
         }}
       />
     </Tabs>

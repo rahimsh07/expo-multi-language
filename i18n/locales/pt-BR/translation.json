@@ -1,0 +1,110 @@
+{
+    "language": "Idioma",
+    "home": {
+        "title": "Início",
+        "welcome": "Bem-vindo!",
+        "step1": {
+            "title": "Passo 1: Teste",
+            "edit": "Edite",
+            "file": "app/(tabs)/index.tsx",
+            "seeChanges": "para ver as mudanças.",
+            "press": "Pressione",
+            "openDevMenu": "para abrir o menu do desenvolvedor."
+        },
+        "step2": {
+            "title": "Passo 2: Explorar",
+            "description": "Toque na aba Explorar para saber mais sobre o que está incluído neste app."
+        },
+        "step3": {
+            "title": "Passo 3: Novo começo",
+            "whenReady": "Quando estiver pronto, execute",
+            "command": "npm run reset-project",
+            "toGetFresh": "para obter um",
+            "app": "app",
+            "directory": "novo diretório. Isso moverá o atual",
+            "to": "para",
+            "appExample": "app-example"
+        },
+        "shortcuts": {
+            "ios": "cmd + d",
+            "android": "cmd + m",
+            "web": "ctrl + shift + i"
+        },
+        "actions": {
+            "action": "Ação",
+            "actionPressed": "Ação pressionada",
+            "share": "Compartilhar",
+            "sharePressed": "Compartilhar pressionado",
+            "more": "Mais",
+            "delete": "Excluir",
+            "deletePressed": "Excluir pressionado"
+        }
+    },
+    "explore": {
+        "title": "Explorar",
+        "intro": "Este app inclui códigos de exemplo para ajudar você a começar.",
+        "routing": {
+            "title": "Roteamento baseado em arquivos",
+            "description1": "Este app tem duas telas:",
+            "screen1": "app/(tabs)/index.tsx",
+            "and": "e",
+            "screen2": "app/(tabs)/explore.tsx",
+            "description2": "O arquivo de layout em",
+            "layoutFile": "app/(tabs)/_layout.tsx",
+            "setsUp": "configura o navegador de abas.",
+            "learnMore": "Saiba mais"
+        },
+        "platforms": {
+            "title": "Suporte para Android, iOS e web",
+            "description": "Você pode abrir este projeto no Android, iOS e web. Para abrir a versão web, pressione",
+            "key": "w",
+            "end": "no terminal executando o projeto."
+        },
+        "images": {
+            "title": "Imagens",
+            "description": "Para imagens estáticas, você pode usar os sufixos @2x e @3x para diferentes densidades de tela",
+            "learnMore": "Saiba mais"
+        },
+        "themes": {
+            "title": "Componentes de modo claro e escuro",
+            "description": "Este template possui suporte para modo claro e escuro. O hook useColorScheme() permite identificar o tema atual."
+        },
+        "animations": {
+            "title": "Animações",
+            "description": "O componente components/HelloWave.tsx usa react-native-reanimated para criar uma animação de mão acenando.",
+            "parallax": "O componente components/ParallaxScrollView.tsx fornece efeito parallax no cabeçalho."
+        }
+    },
+    "modal": {
+        "title": "Este é um modal",
+        "goHome": "Ir para a tela inicial"
+    },
+    "tabs": {
+        "home": "Início",
+        "explore": "Explorar"
+    },
+    "stack": {
+        "modal": "Modal"
+    },
+    "features": {
+        "title": "Funcionalidades",
+        "collapsibles": {
+            "i18n": {
+                "title": "Internacionalização com i18next",
+                "description": "Utiliza react-i18next para gerenciamento de idiomas, permitindo que o aplicativo seja localizado para diferentes idiomas."
+            },
+            "persistent": {
+                "title": "Seleção de Idioma Persistente",
+                "description": "Utiliza AsyncStorage para armazenar persistentemente o idioma preferido do usuário, proporcionando uma experiência consistente ao reiniciar o aplicativo."
+            },
+            "fallback": {
+                "title": "Fallback de Idioma",
+                "description": "Padrão para o idioma do dispositivo se nenhuma preferência de idioma for salva."
+            },
+            "switching": {
+                "title": "Troca Fácil de Idioma",
+                "description": "Os usuários podem trocar de idioma tocando nas bandeiras dos países."
+            }
+        }
+    }
+}

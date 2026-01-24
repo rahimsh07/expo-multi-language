@@ -1,0 +1,110 @@
+{
+    "language": "Language",
+    "home": {
+        "title": "Home",
+        "welcome": "Welcome!",
+        "step1": {
+            "title": "Step 1: Try it",
+            "edit": "Edit",
+            "file": "app/(tabs)/index.tsx",
+            "seeChanges": "to see changes.",
+            "press": "Press",
+            "openDevMenu": "to open the developer menu."
+        },
+        "step2": {
+            "title": "Step 2: Explore",
+            "description": "Tap the Explore tab to learn more about what's included in this starter app."
+        },
+        "step3": {
+            "title": "Step 3: Get a fresh start",
+            "whenReady": "When you're ready, run",
+            "command": "npm run reset-project",
+            "toGetFresh": "to get a fresh",
+            "app": "app",
+            "directory": "directory. This will move the current",
+            "to": "to",
+            "appExample": "app-example"
+        },
+        "shortcuts": {
+            "ios": "cmd + d",
+            "android": "cmd + m",
+            "web": "ctrl + shift + i"
+        },
+        "actions": {
+            "action": "Action",
+            "actionPressed": "Action pressed",
+            "share": "Share",
+            "sharePressed": "Share pressed",
+            "more": "More",
+            "delete": "Delete",
+            "deletePressed": "Delete pressed"
+        }
+    },
+    "explore": {
+        "title": "Explore",
+        "intro": "This app includes example code to help you get started.",
+        "routing": {
+            "title": "File-based routing",
+            "description1": "This app has two screens:",
+            "screen1": "app/(tabs)/index.tsx",
+            "and": "and",
+            "screen2": "app/(tabs)/explore.tsx",
+            "description2": "The layout file in",
+            "layoutFile": "app/(tabs)/_layout.tsx",
+            "setsUp": "sets up the tab navigator.",
+            "learnMore": "Learn more"
+        },
+        "platforms": {
+            "title": "Android, iOS, and web support",
+            "description": "You can open this project on Android, iOS, and the web. To open the web version, press",
+            "key": "w",
+            "end": "in the terminal running this project."
+        },
+        "images": {
+            "title": "Images",
+            "description": "For static images, you can use the @2x and @3x suffixes to provide files for different screen densities",
+            "learnMore": "Learn more"
+        },
+        "themes": {
+            "title": "Light and dark mode components",
+            "description": "This template has light and dark mode support. The useColorScheme() hook lets you inspect the user's current color scheme."
+        },
+        "animations": {
+            "title": "Animations",
+            "description": "The components/HelloWave.tsx component uses react-native-reanimated to create a waving hand animation.",
+            "parallax": "The components/ParallaxScrollView.tsx component provides a parallax effect for the header image."
+        }
+    },
+    "modal": {
+        "title": "This is a modal",
+        "goHome": "Go to home screen"
+    },
+    "tabs": {
+        "home": "Home",
+        "explore": "Explore"
+    },
+    "stack": {
+        "modal": "Modal"
+    },
+    "features": {
+        "title": "Features",
+        "collapsibles": {
+            "i18n": {
+                "title": "Internationalization with i18next",
+                "description": "Uses react-i18next for language management, allowing the app to be localized for different languages."
+            },
+            "persistent": {
+                "title": "Persistent Language Selection",
+                "description": "Uses AsyncStorage to persistently store the user's preferred language, providing a consistent experience across app restarts."
+            },
+            "fallback": {
+                "title": "Language Fallback",
+                "description": "Defaults to the device's language if no language preference is saved."
+            },
+            "switching": {
+                "title": "Easy Language Switching",
+                "description": "Users can switch languages by tapping on country flags."
+            }
+        }
+    }
+}

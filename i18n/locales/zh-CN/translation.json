@@ -1,0 +1,110 @@
+{
+    "language": "语言",
+    "home": {
+        "title": "开始",
+        "welcome": "欢迎！",
+        "step1": {
+            "title": "步骤 1：尝试",
+            "edit": "编辑",
+            "file": "app/(tabs)/index.tsx",
+            "seeChanges": "查看更改。",
+            "press": "按下",
+            "openDevMenu": "打开开发者菜单。"
+        },
+        "step2": {
+            "title": "步骤 2：探索",
+            "description": "点击“探索”选项卡了解此示例应用包含的内容。"
+        },
+        "step3": {
+            "title": "步骤 3：重新开始",
+            "whenReady": "准备好后，运行",
+            "command": "npm run reset-project",
+            "toGetFresh": "以获得新的",
+            "app": "应用",
+            "directory": "目录。这将移动当前",
+            "to": "到",
+            "appExample": "app-example"
+        },
+        "shortcuts": {
+            "ios": "cmd + d",
+            "android": "cmd + m",
+            "web": "ctrl + shift + i"
+        },
+        "actions": {
+            "action": "操作",
+            "actionPressed": "操作已点击",
+            "share": "分享",
+            "sharePressed": "已点击分享",
+            "more": "更多",
+            "delete": "删除",
+            "deletePressed": "已点击删除"
+        }
+    },
+    "explore": {
+        "title": "探索",
+        "intro": "此应用包含示例代码，帮助你快速入门。",
+        "routing": {
+            "title": "基于文件的路由",
+            "description1": "此应用包含两个页面：",
+            "screen1": "app/(tabs)/index.tsx",
+            "and": "和",
+            "screen2": "app/(tabs)/explore.tsx",
+            "description2": "布局文件位于",
+            "layoutFile": "app/(tabs)/_layout.tsx",
+            "setsUp": "用于设置底部导航。",
+            "learnMore": "了解更多"
+        },
+        "platforms": {
+            "title": "支持 Android、iOS 和 Web",
+            "description": "你可以在 Android、iOS 和 Web 上打开该项目。要打开 Web 版本，请按",
+            "key": "w",
+            "end": "在终端中运行项目。"
+        },
+        "images": {
+            "title": "图片",
+            "description": "对于静态图片，你可以使用 @2x 和 @3x 后缀来适配不同屏幕密度",
+            "learnMore": "了解更多"
+        },
+        "themes": {
+            "title": "浅色和深色模式组件",
+            "description": "此模板支持浅色和深色模式。useColorScheme() 可检测当前主题。"
+        },
+        "animations": {
+            "title": "动画",
+            "description": "components/HelloWave.tsx 使用 react-native-reanimated 创建挥手动画。",
+            "parallax": "components/ParallaxScrollView.tsx 提供头部视差效果。"
+        }
+    },
+    "modal": {
+        "title": "这是一个模态框",
+        "goHome": "返回首页"
+    },
+    "tabs": {
+        "home": "首页",
+        "explore": "探索"
+    },
+    "stack": {
+        "modal": "弹窗"
+    },
+    "features": {
+        "title": "功能",
+        "collapsibles": {
+            "i18n": {
+                "title": "使用i18next进行国际化",
+                "description": "使用react-i18next进行语言管理，使应用程序能够在不同语言环境下本地化。"
+            },
+            "persistent": {
+                "title": "持久化语言选择",
+                "description": "使用AsyncStorage持久化存储用户的首选语言，提供应用重启后的一致体验。"
+            },
+            "fallback": {
+                "title": "语言回退",
+                "description": "如果未保存语言首选项，则默认使用设备的语言。"
+            },
+            "switching": {
+                "title": "简便的语言切换",
+                "description": "用户可以通过点击国家旗帜来切换语言。"
+            }
+        }
+    }
+}
